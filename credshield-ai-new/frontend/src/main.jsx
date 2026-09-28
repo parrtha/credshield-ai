@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ShieldCheck, LockKeyhole, AlertTriangle, CheckCircle2, BrainCircuit, ArrowRight, Eye, EyeOff, RefreshCw, Server, Database, Sparkles, Download, Activity, ShieldAlert } from 'lucide-react';
 import './styles.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API = import.meta.env.VITE_API_URL || 'https://credshield-ai-73e2.onrender.com';
 
 function analyzePassword(password) {
   const length = password.length;
